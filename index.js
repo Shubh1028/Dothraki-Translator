@@ -36,7 +36,7 @@ document.querySelector("#btn-translate").addEventListener("click", function () {
           json.contents.translated)
     )
     .catch(
-      (error) => console.log("Error!", error),
-      alert("Something went wrong with server")
+      (error) => console.log("Error!", error)
+      //   alert("Something went wrong with server")
     );
 });
